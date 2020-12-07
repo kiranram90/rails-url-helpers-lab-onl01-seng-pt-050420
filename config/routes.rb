@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   
  get 'students/:id/activate', to: 'students#activate', as:'activate-student'
  
- get 'students'
+ 
   
 end
